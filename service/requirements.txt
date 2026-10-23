@@ -1,0 +1,10 @@
+fastapi>=0.115
+uvicorn>=0.32
+python-dotenv>=1.0
+numpy>=1.26
+faster-whisper>=1.1
+opencc-python-reimplemented>=0.1.7
+# Windows 上讓 faster-whisper 使用 GPU 所需的 CUDA 12 函式庫
+nvidia-cublas-cu12>=12.4
+nvidia-cudnn-cu12>=9.1,<10
+pytest>=8
